@@ -6,6 +6,9 @@ function FindProxyForURL(url, host) {
     if (shExpMatch(url, "https://www.youtube.com/")) {
         return proxy;
     }
+    if (shExpMatch(url, "https://youtube.com/")) {
+        return proxy;
+    }
     if (shExpMatch(url, "https://m.youtube.com/")) {
         return proxy;
     }
