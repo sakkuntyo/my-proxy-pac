@@ -3,7 +3,7 @@ function FindProxyForURL(url, host) {
     if (shExpMatch(url, "https://www.cman.jp/")) {
         return proxy;
     }
-    if (shExpMatch(url, "https://www.youtube.com/")) {
+    if (shExpMatch(url, "googlevideo.com")) {
         return proxy;
     }
     return 
