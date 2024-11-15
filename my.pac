@@ -15,10 +15,13 @@ if (shExpMatch(url, "https://www.youtube.com/")) {
     if (shExpMatch(url, "https://googleads.g.doubleclick.net/")) {
         return proxy;
     }
-    if (shExpMatch(url, "https://www.google.am/pagead")) {
+    if (shExpMatch(url, "https://www.google.am/pagead/")) {
         return proxy;
     }
-    if (shExpMatch(url, "https://www.google.com/pagead")) {
+    if (shExpMatch(url, "https://www.google.com/pagead/")) {
+        return proxy;
+    }
+    if (shExpMatch(url, "https://static.doubleclick.net/")) {
         return proxy;
     }
     return 
